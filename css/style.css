@@ -1,11 +1,12 @@
+/*-------FONTS---------*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box
 }
 
-/*-------FONTS---------*/
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500&display=swap');
 
 /*-------COLORS---------*/
 
@@ -22,8 +23,8 @@ body {
 }
 
 .container {
-    max-width: 1130px;
     margin: 0 auto;
+    max-width: 1130px;
 }
 
 /*-------HEADER---------*/
@@ -67,6 +68,7 @@ h1 {
     display: inline-block;
     width: 278px;
     height: 82px;
+    cursor: pointer;
     background-color: var(--black);
 }
 
@@ -94,3 +96,98 @@ h1 {
 }
 
 
+/*-------MAIN---------*/
+
+.main_titles {
+    margin-top: 43px;
+}
+
+.main_titles p:nth-child(1) {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    color: #000000;
+}
+
+
+.main_titles p:nth-child(2) {
+    font-size: 72px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.watchs {
+    margin-top: 84px;
+}
+
+.watch_image {
+    background-color: var(--white_background);
+    width: 417px;
+    height: 630px;
+    margin: 0 auto;
+    padding: 110px 60px 110px 71px;
+}
+
+.watch_image_sw12 {
+    background-color: var(--white_background);
+    width: 496px;
+    height: 630px;
+    margin: 0 auto;
+    padding: 65px 2px 65px 2px;
+}
+
+.watch_titles {
+    font-size: 32px;
+    text-align: center;
+}
+
+.watch_titles p:nth-child(1) {
+    margin-top: 67px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.watch_titles p:nth-child(2) {
+    margin: 17px auto;
+    color: var(--black);
+    font-weight: 300;
+    width: 510px;
+}
+
+/*-------SECTION_TEXT---------*/
+
+.section_text {
+    margin-top: 100px;
+}
+
+.text p{
+    color: var(--black);
+}
+
+.text p:first-child{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.border {
+    border-top: 1px solid #707070;
+    width: 178px;
+    margin: 0 auto;
+}
+
+.text p:last-child {
+    margin: 50px auto;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    width: 515px;
+    line-height: 1.6;
+}
+
+span {
+    font-weight: 500;
+    text-decoration: underline;
+    color: #BB8B5D;
+}
